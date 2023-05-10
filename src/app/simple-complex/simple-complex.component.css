@@ -1,0 +1,140 @@
+/* hero background image */
+.bgimage {
+  height:100vh;
+  background: url('src/assets/bg2.jpg');
+  background-size:cover;
+  position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+  font-size: 4.5rem;
+  top: 20%;
+}
+.hero_desc {
+  font-size: 2rem;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* about section image css */
+.imageAboutPage {
+  width: 100%;
+}
+/* services section css */
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card:hover .servicesIcon {
+  color: #008000;
+}
+.servicesText:hover {
+  border: 1px solid #008000;
+}
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+  background-color: black;
+}
+
+
+.social-footer {
+  padding: 1rem;
+  background: #8a8a8a;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 1.3rem;
+  color: #fefefe;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+
+
+#footer .twitter {
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+#footer .linkedin {
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: -78px 0;
+}
+#footer .facebook {
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: -233px 0;
+}
+#footer .skype {
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: -156px 0;
+}
+#footer .flickr {
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: -310px 0;
+}
+#footer a {
+  height: 56px;
+  width: 56px;
+  display: inline-block;
+  margin: 10px;
+}
+#footer a:hover {
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+}
+#footer .twitter:hover {
+  background-position: 0 -56px;
+}
+#footer .facebook:hover {
+  background-position: -233px -56px;
+}
+#footer .skype:hover {
+  background-position: -156px -56px;
+}
+#footer .linkedin:hover {
+  background-position: -78px -56px;
+}
+#footer .flickr:hover {
+  background-position: -310px -56px;
+}
+.bg-dark-1{
+  background: #283c86;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 30%;
+ 
+ 
+}
+ 
